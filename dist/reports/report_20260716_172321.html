@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>每日资讯简报 - 2026-07-16 17:23</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #e0e0e0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .header {
+            text-align: center;
+            padding: 30px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .header h1 {
+            font-size: 2em;
+            color: white;
+            margin-bottom: 10px;
+        }
+        .header .time {
+            color: rgba(255,255,255,0.8);
+            font-size: 0.9em;
+        }
+        .summary {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .summary h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        .section {
+            background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .section h2 {
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid rgba(255,255,255,0.1);
+        }
+        .military h2 { color: #e74c3c; }
+        .finance h2 { color: #2ecc71; }
+        .news-item {
+            background: rgba(255,255,255,0.05);
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 12px;
+            border-left: 4px solid;
+            transition: transform 0.2s;
+        }
+        .news-item:hover {
+            transform: translateX(5px);
+        }
+        .military .news-item { border-left-color: #e74c3c; }
+        .finance .news-item { border-left-color: #2ecc71; }
+        .news-title {
+            font-weight: bold;
+            font-size: 1.05em;
+            margin-bottom: 8px;
+            color: #fff;
+        }
+        .news-meta {
+            font-size: 0.8em;
+            color: #888;
+            margin-bottom: 8px;
+        }
+        .news-meta span {
+            margin-right: 15px;
+        }
+        .importance-high { color: #e74c3c; }
+        .importance-mid { color: #f39c12; }
+        .importance-low { color: #2ecc71; }
+        .news-summary {
+            font-size: 0.9em;
+            color: #bbb;
+            line-height: 1.5;
+        }
+        .empty {
+            text-align: center;
+            color: #666;
+            padding: 20px;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.85em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌍 每日资讯简报</h1>
+            <div class="time">🕐 2026-07-16 17:23</div>
+        </div>
+
+        <div class="summary">
+            <h2>📊 今日要点</h2>
+            <p style="line-height: 1.8; color: #ccc;">```json
+{
+  "briefing": "今日全球动态：地缘紧张与经济放缓信号交织",
+  "key_events": [
+    {
+      "event": "以色列在加沙北部发起大规模军事行动",
+      "importance": "高"
+    },
+    {
+      "event": "俄罗斯宣布在西部军区组建新部队以应对北约东扩",
+      "importance": "高"
+    },
+    {
+      "event": "朝鲜向日本海发射疑似中程弹道导弹",
+      "importance": "中"
+    },
+    {
+      "event": "美联储会议记录显示通胀持续，降息谨慎",
+      "importance": "高"
+    },
+    {
+      "event": "中国6月CPI同比持平，内需疲弱通缩压力持续",
+      "importance": "高"
+    }
+  ],
+  "analysis": "今日关键事件呈现出地缘政治风险上升与全球经济放缓信号共振的格局。军事层面，以色列在加沙的升级行动、俄罗斯针对北约的军事部署以及朝鲜的导弹试射，共同指向欧亚及中东多个热点区域的紧张局势加剧。金融层面，美联储为通胀所困而推迟降息，与中国内需不足、通缩压力显现形成鲜明对比，凸显了全球主要经济体面临的不同政策挑战与增长困境。军事动荡可能进一步冲击供应链和能源价格，而疲弱的经济数据则预示着全球需求前景蒙阴。",
+  "outlook": "展望后市，地缘政治不确定性将持续推升市场避险情绪，对黄金、美元及国债等传统避险资产构成支撑。同时，全球主要央行（美联储、欧央行、英央行）在通胀粘性、经济增长放缓和政治压力之间的平衡将变得更加艰难，货币政策路径的分化可能加剧金融市场波动。投资者需密切关注热点地区冲突的溢出风险，以及中国是否会有更大力度的刺激政策出台以应对其通缩压力。"
+}
+```</p>
+        </div>
+
+        <div class="section military">
+            <h2>🎖️ 军事新闻</h2>
+
+            <div class="news-item">
+                <div class="news-title">以色列对加沙北部发动大规模军事行动，联合国呼吁保护平民</div>
+                <div class="news-meta">
+                    <span>📰 路透社、新华社</span>
+                    <span>🕐 2024年7月10日</span>
+                    <span class="importance-high">🔴 高</span>
+                </div>
+                <div class="news-summary">以色列军方宣布在加沙地带北部贾巴利亚发起新的大规模军事行动，旨在清除哈马斯武装残余。行动造成大量平民流离失所，联合国及多国强烈呼吁以色列遵守国际人道法，避免造成进一步的人道主义灾难。</div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-title">美国宣布向乌克兰提供新一轮价值2.25亿美元军事援助</div>
+                <div class="news-meta">
+                    <span>📰 美国国防部、五角大楼新闻稿</span>
+                    <span>🕐 2024年7月10日</span>
+                    <span class="importance-high">🔴 高</span>
+                </div>
+                <div class="news-summary">美国国防部长宣布向乌克兰提供新一批价值2.25亿美元的安全援助，主要包括防空导弹、反坦克武器、火炮弹药和战术车辆等。此举旨在帮助乌克兰应对俄罗斯在东部前线的持续压力。</div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-title">俄罗斯在北约东扩背景下宣布将在西部军区组建新部队</div>
+                <div class="news-meta">
+                    <span>📰 塔斯社</span>
+                    <span>🕐 2024年7月10日</span>
+                    <span class="importance-high">🔴 高</span>
+                </div>
+                <div class="news-summary">俄罗斯国防部长绍伊古表示，为应对北约不断东扩带来的安全威胁，俄将在西部军区组建新的诸兵种合成集团军及海军陆战师。此举被视为对北约近期在波罗的海及东欧军事部署的直接回应。</div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-title">朝鲜向日本海发射疑似中程弹道导弹，引发地区紧张</div>
+                <div class="news-meta">
+                    <span>📰 韩国联合参谋本部、日本防卫省</span>
+                    <span>🕐 2024年7月10日</span>
+                    <span class="importance-high">🔴 高</span>
+                </div>
+                <div class="news-summary">韩国军方探测到朝鲜从平壤附近向日本海发射了至少一枚疑似中程弹道导弹。导弹飞行约600公里后落入日本专属经济区外海。美日韩三国对此表示强烈谴责，并加强了联合监视与情报共享。</div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-title">北约“波罗的海行动-2024”大规模海军演习进入实战演练阶段</div>
+                <div class="news-meta">
+                    <span>📰 北约盟军转型司令部官网</span>
+                    <span>🕐 2024年7月10日</span>
+                    <span class="importance-mid">🟡 中</span>
+                </div>
+                <div class="news-summary">由美国海军主导的北约年度“波罗的海行动-2024”演习进入核心阶段，来自20个盟国的50余艘舰艇、45架飞机和近6000名人员参与。演习重点演练反潜、反舰及两栖作战，旨在提升联盟在波罗的海地区的集体防御与快速反应能力。</div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-title">美国批准向台湾出售价值3.6亿美元的“弹簧刀”巡飞弹等装备</div>
+                <div class="news-meta">
+                    <span>📰 美国国防安全合作局（DSCA）</span>
+                    <span>🕐 2024年7月10日</span>
+                    <span class="importance-mid">🟡 中</span>
+                </div>
+                <div class="news-summary">美国国务院批准向台湾出售价值3.6亿美元的军事装备，主要包括“弹簧刀”-300及“弹簧刀”-600巡飞弹、相关系统与后勤支持。中国外交部对此表示坚决反对，称其严重违反一个中国原则和中美三个联合公报。</div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-title">法德西三国推进未来欧洲主战坦克项目，计划2035年列装</div>
+                <div class="news-meta">
+                    <span>📰 欧洲防务局、法国《防务新闻》</span>
+                    <span>🕐 2024年7月10日</span>
+                    <span class="importance-mid">🟡 中</span>
+                </div>
+                <div class="news-summary">法国、德国和西班牙三国国防部长签署协议，正式推进“主要地面作战系统”（MGCS）项目，旨在共同研发下一代欧洲主战坦克。该项目计划于2035年后开始列装，以替代现有的“勒克莱尔”和“豹2”坦克，提升欧洲战略自主能力。</div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-title">美国与菲律宾在南海争议海域举行联合巡逻与演习</div>
+                <div class="news-meta">
+                    <span>📰 菲律宾武装部队、美国第七舰队</span>
+                    <span>🕐 2024年7月10日</span>
+                    <span class="importance-mid">🟡 中</span>
+                </div>
+                <div class="news-summary">美国海军“罗斯福”号航母打击群与菲律宾海军舰艇在南海争议海域（靠近黄岩岛附近）举行了为期两天的联合海上巡逻与通信演习。这是美菲《共同防御条约》框架下的一次例行互动，旨在加强互操作性与海洋安全合作。</div>
+            </div>
+        </div>
+
+        <div class="section finance">
+            <h2>💰 金融新闻</h2>
+
+            <div class="news-item">
+                <div class="news-title">美联储会议记录：多数官员认为通胀持续，降息需更多数据支撑</div>
+                <div class="news-meta">
+                    <span>📰 路透社</span>
+                    <span>🕐 2024-07-09</span>
+                    <span class="importance-high">🔴 高</span>
+                </div>
+                <div class="news-summary">美联储最新会议记录显示，多数官员认为美国通胀仍居高位，降息需观察更多经济数据确认通胀持续回落。部分委员强调过早降息风险，市场对年内降息预期降温。</div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-title">中国6月CPI同比持平，PPI降幅收窄，通缩压力持续</div>
+                <div class="news-meta">
+                    <span>📰 国家统计局</span>
+                    <span>🕐 2024-07-09</span>
+                    <span class="importance-high">🔴 高</span>
+                </div>
+                <div class="news-summary">中国6月CPI同比上涨0%，低于预期，显示内需疲弱。PPI同比下降0.8%，降幅较前月收窄，但工业品价格仍承压。数据引发市场对通缩风险的关注。</div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-title">PayPal推出美元稳定币PYUSD，拓展加密货币支付</div>
+                <div class="news-meta">
+                    <span>📰 彭博社</span>
+                    <span>🕐 2024-07-09</span>
+                    <span class="importance-mid">🟡 中</span>
+                </div>
+                <div class="news-summary">支付巨头PayPal宣布在以太坊网络上推出与美元挂钩的稳定币PYUSD，用户可在其平台内用于转账和购物。这是首家大型传统金融机构发行自己的稳定币。</div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-title">欧元区零售销售数据疲软，或影响欧洲央行降息节奏</div>
+                <div class="news-meta">
+                    <span>📰 欧盟统计局</span>
+                    <span>🕐 2024-07-09</span>
+                    <span class="importance-mid">🟡 中</span>
+                </div>
+                <div class="news-summary">欧元区5月零售销售环比意外下降，显示消费支出疲软。该数据可能为欧洲央行进一步降息提供依据，以刺激经济增长，欧元短线承压。</div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-title">英国经济或已陷入技术性衰退，央行降息预期升温</div>
+                <div class="news-meta">
+                    <span>📰 英国国家统计局</span>
+                    <span>🕐 2024-07-09</span>
+                    <span class="importance-mid">🟡 中</span>
+                </div>
+                <div class="news-summary">英国4月GDP环比下降0.4%，连续第二个月负增长，满足技术性衰退条件。疲软数据增加英国央行8月降息的可能性，英镑汇率走低。</div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-title">日本第一季度GDP修正值大幅下修，经济收缩超预期</div>
+                <div class="news-meta">
+                    <span>📰 日本内阁府</span>
+                    <span>🕐 2024-07-09</span>
+                    <span class="importance-mid">🟡 中</span>
+                </div>
+                <div class="news-summary">日本第一季度实际GDP修正后环比萎缩幅度扩大，主因资本投资和个人消费被下调。数据凸显日本经济复苏脆弱，日元持续承压。</div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-title">美国上周初请失业金人数上升，劳动力市场持续降温</div>
+                <div class="news-meta">
+                    <span>📰 美国劳工部</span>
+                    <span>🕐 2024-07-09</span>
+                    <span class="importance-mid">🟡 中</span>
+                </div>
+                <div class="news-summary">美国截至7月6日当周初请失业金人数意外上升至23.1万，创近一年新高。持续申请人数也增加，表明劳动力市场逐渐失去动能。</div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-title">中国6月贸易顺差扩大，出口韧性超预期</div>
+                <div class="news-meta">
+                    <span>📰 海关总署</span>
+                    <span>🕐 2024-07-09</span>
+                    <span class="importance-low">🟢 低</span>
+                </div>
+                <div class="news-summary">中国6月以美元计出口同比增速加快，进口增速放缓，贸易顺差扩大至近990亿美元。出口数据好于预期，显示外需仍具韧性。</div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-title">特斯拉推迟Robotaxi发布，股价盘后大跌</div>
+                <div class="news-meta">
+                    <span>📰 CNBC</span>
+                    <span>🕐 2024-07-09</span>
+                    <span class="importance-low">🟢 低</span>
+                </div>
+                <div class="news-summary">特斯拉将原定8月发布的自动驾驶出租车Robotaxi推迟至10月，以便制造更多原型车。消息公布后，特斯拉股价盘后下跌约7%。</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            本报告由 AI Agent 自动生成 | 2026-07-16 17:23
+        </div>
+    </div>
+</body>
+</html>
