@@ -1,0 +1,27 @@
+# Build artifacts
+build/
+dist/*.exe
+dist/*.zip
+dist/reports/
+*.spec
+
+# Reports (personal data)
+reports/*.html
+reports/*.md
+
+# Temp
+$tempDir/
+installer/temp/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+Desktop.ini
